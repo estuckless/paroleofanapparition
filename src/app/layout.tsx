@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Parole of an Apparition",
-  description: "Art collective event",
+  description: "gottrekorder - association of artists",
 };
 
 export default function RootLayout({
