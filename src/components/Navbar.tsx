@@ -21,7 +21,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed md:right-4 md:top-0 bottom-4 left-4 right-4 md:left-auto md:bottom-auto">
+    <nav className="fixed md:right-4 md:top-6 bottom-4 left-4 right-4 md:left-auto md:bottom-auto">
       {/* Desktop layout - vertical */}
       <div className="hidden md:flex flex-col space-y-1">
         {tabs.map((tab) => (
