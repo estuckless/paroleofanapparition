@@ -1,6 +1,6 @@
 export default function Artists() {
   return (
-    <div className="min-h-screen bg-white p-4">
+    <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
       <div className="max-w-4xl mx-auto font-mono text-sm space-y-8 text-black">
         <h1 className="text-lg">artists</h1>
         

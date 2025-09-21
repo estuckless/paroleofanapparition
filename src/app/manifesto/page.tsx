@@ -1,6 +1,6 @@
 export default function Manifesto() {
   return (
-    <div className="min-h-screen bg-white p-4">
+    <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
       <div className="max-w-4xl mx-auto font-mono text-sm space-y-6 text-black">
         <div className="space-y-6">
           <div className="text-center">
