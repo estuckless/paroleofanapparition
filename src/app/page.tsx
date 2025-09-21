@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white flex justify-center items-start pb-56 md:pb-0">
-      <div className="relative w-full max-w-2xl h-[70vh] md:h-screen">
+      <div className="relative w-full max-w-2xl h-[50vh] md:h-screen">
         <Image
           src="/images/parole_front2.png"
           alt="Parole of an Apparition"
