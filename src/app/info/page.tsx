@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Info() {
   return (
     <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
@@ -73,17 +75,40 @@ export default function Info() {
 
             <div>
               <h3 className="font-semibold mb-4 text-base">sponsors</h3>
-              <div className="text-sm space-y-2">
-                <p>Bundesministerium Wohnen, Kunst, Kultur, Medien und Sport</p>
-                <p>Fredelia</p>
-                <p>Industriellenvereinigung</p>
-                <p>JAF</p>
-                <p>Kultur Alsergrund</p>
-                <p>Österreichischer Weinbauverband</p>
-                <p>Schloss Neugebäude</p>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/BMWKMS_Logo.jpg" alt="Bundesministerium" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/FREDELIA_LogoTalents.png" alt="Fredelia" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/IV_Logo_2022_Bund.jpg" alt="Industriellenvereinigung" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/jaf_logo_at_rgb_positiv.svg" alt="JAF" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/Logo-Kultur-Alsergrund-rot.png" alt="Kultur Alsergrund" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/Österreichischer Weinbauverband_Logo.jpg" alt="Österreichischer Weinbauverband" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/neugebäude.jpg" alt="Schloss Neugebäude" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/Weingut Mayer am Pfarrplatz_Logo.png" alt="Weingut Mayer" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/Weingut Schauer Südsteiermark_Logo.jpg" alt="Weingut Schauer" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/hm_communication-01.png" alt="HM Communication" fill className="object-contain" />
+                </div>
+              </div>
+              <div className="mt-4 text-sm text-center">
                 <p>Votivkirche</p>
-                <p>Weingut Mayer</p>
-                <p>Weingut Schauer</p>
               </div>
             </div>
           </div>
