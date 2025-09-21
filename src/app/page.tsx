@@ -13,7 +13,7 @@ export default function Home() {
         />
         
         {/* Logo overlay grid - top right area on desktop, left side down 20% on mobile */}
-        <div className="absolute top-0 right-0 md:w-1/2 md:h-1/3 w-1/2 h-1/3 md:top-0 top-[20%] md:right-0 -left-[15%] z-10">
+        <div className="absolute top-0 right-0 md:w-1/2 md:h-1/3 w-1/2 h-1/3 md:top-0 top-6 md:right-0 -left-[22%] z-10">
           <div className="grid grid-cols-2 gap-1 p-4">
             {/* Logo slots - adjust positioning as needed */}
             <div></div>
