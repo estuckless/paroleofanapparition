@@ -9,7 +9,6 @@ export default function Contact() {
             <h2 className="font-semibold">gottrekorder – association of artists</h2>
             <div className="space-y-2">
               <p>E-Mail: office@gottrekorder.com</p>
-              <p>Tel: +43 650 736 07 82</p>
               <p>Web: <a href="https://gottrekorder.com" target="_blank" rel="noopener noreferrer" className="hover:underline">gottrekorder.com</a></p>
               <p>Instagram: <a href="https://www.instagram.com/gottrekorder" target="_blank" rel="noopener noreferrer" className="hover:underline">@gottrekorder</a></p>
             </div>
@@ -20,7 +19,6 @@ export default function Contact() {
             <div className="space-y-2">
               <p><strong>Hema Makwana</strong></p>
               <p>E-Mail: office@hmcommunication.eu</p>
-              <p>Tel: +676 644 15 66</p>
               <p>Web: <a href="https://hmcommunication.eu" target="_blank" rel="noopener noreferrer" className="hover:underline">hmcommunication.eu</a></p>
               <p>Instagram: <a href="https://www.instagram.com/_hm_communication" target="_blank" rel="noopener noreferrer" className="hover:underline">@_hm_communication</a></p>
             </div>
