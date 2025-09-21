@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState(false);
 
   const tabs = [
     { name: 'home', href: '/' },
@@ -37,22 +39,40 @@ export default function Navbar() {
         ))}
       </div>
       
-      {/* Mobile layout - 2 rows at bottom */}
-      <div className="md:hidden bg-white bg-opacity-90 backdrop-blur-sm border border-gray-200 rounded-lg p-3">
-        <div className="grid grid-cols-3 gap-3">
-          {tabs.map((tab) => (
-            <Link
-              key={tab.name}
-              href={tab.href}
-              className={`text-sm font-mono text-center py-2 px-3 rounded ${
-                pathname === tab.href 
-                  ? 'text-black bg-gray-100 underline' 
-                  : 'text-gray-500 hover:text-black hover:bg-gray-50'
-              }`}
-            >
-              {tab.name}
-            </Link>
-          ))}
+      {/* Mobile layout - floating hamburger */}
+      <div className="md:hidden">
+        {/* Hamburger button */}
+        <button 
+          onClick={() => setIsOpen(!isOpen)}
+          className="fixed top-6 right-6 w-12 h-12 flex flex-col justify-center items-center space-y-1 z-20"
+        >
+          <div className="w-5 h-0.5 bg-black"></div>
+          <div className="w-5 h-0.5 bg-black"></div>
+          <div className="w-5 h-0.5 bg-black"></div>
+        </button>
+
+        {/* Expandable menu */}
+        <div className={`fixed top-20 right-6 transition-all duration-300 ease-in-out z-10 ${
+          isOpen ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-4 pointer-events-none'
+        }`}>
+          <div className="bg-white bg-opacity-95 backdrop-blur-sm border border-gray-200 rounded-lg shadow-lg p-3 min-w-[120px]">
+            <div className="space-y-2">
+              {tabs.map((tab) => (
+                <Link
+                  key={tab.name}
+                  href={tab.href}
+                  onClick={() => setIsOpen(false)}
+                  className={`block text-xs font-mono text-center py-1 px-2 rounded transition-colors ${
+                    pathname === tab.href 
+                      ? 'text-black bg-gray-100 underline' 
+                      : 'text-gray-500 hover:text-black hover:bg-gray-50'
+                  }`}
+                >
+                  {tab.name}
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </nav>
