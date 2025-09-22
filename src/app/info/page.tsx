@@ -1,6 +1,42 @@
+'use client';
+
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function Info() {
+  const [activeModal, setActiveModal] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setActiveModal(null);
+      }
+    };
+
+    if (activeModal) {
+      document.addEventListener('keydown', handleEscape);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+    };
+  }, [activeModal]);
+
+  const gottrekorderInfo = {
+    title: "gottrekorder e.v.",
+    content: "gottrekorder e.v. is an international association of artists based in Graz and Vienna (Austria) founded in 2002. Since 2015, gottrekorder has curated numerous art exhibitions and collaborative projects including visual arts, sound, music, literature, installation and performance, with both Austrian and international artists.",
+    email: "office@gottrekorder.com",
+    web: "gottrekorder.com",
+    instagram: "@gottrekorder"
+  };
+
+  const hmInfo = {
+    title: "HM Communication",
+    content: "HM Communication was founded by Hema Makwana and is based in Vienna/Austria. For the past fifteen-plus years, Hema and her team have been trusted and close advisors to collectors providing personal and bespoke collection management services, and working directly with clients on the implementation of ideas primarily in the DACH region and the UK. Independently, HM Communication is also a supportive companion for contemporary artists and creatives from various fields. Hema brings exceptional ideas to life by guiding and assisting the artists & creatives in expanding their careers.",
+    email: "office@hmcommunication.eu",
+    web: "hmcommunication.eu",
+    instagram: "@_hm_communication"
+  };
   return (
     <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
       <div className="max-w-7xl mx-auto font-mono text-sm space-y-8 text-black">
@@ -18,11 +54,11 @@ export default function Info() {
             <div className="space-y-6">
               <p>From 8 – 14 October 2025, British-Irish performance artist Nigel Rolfe and Irish visual artist Paula Fitzsimons will join forces with local Vienna-based artists for a series of live performances and installations in Vienna. The event will take place at different sites and locations in the city, including Schloss Neugebäude, Votivkirche, and Haus der Industrie.</p>
 
-              <p>Nigel Rolfe (UK/IE) is considered one of the pioneering artists of performance art and one of its most active and prominent practitioners since the 1970s. His work, including live performances, photography, drawing, video and sound, has been shown in museums, biennials and retrospectives worldwide. Central to Rolfe&rsquo;s performance practice is the contention that art is always &ldquo;live&rdquo;, created in the moment. He sees his body as &ldquo;sculpture in motion&rdquo; and a painting tool. In his performances, he interacts with water, fire, air, earth, and other materials and environments, putting his body and himself in what he calls &ldquo;works made live&rdquo;.</p>
+              <p>Nigel Rolfe (UK/IE) is considered one of the pioneering artists of performance art and has been one of its most active and prominent practitioners since the 1970s. From his early works, which he described as &ldquo;Sculptures in Motion,&rdquo; to politically engaged performances in the 1980s, movements into photography, drawing, video and sound, as well as recent outdoor performances, he has profoundly shaped the history of performance art. His work has been exhibited in museums, biennials, and retrospectives around the world. Grounded in the belief that all art-making is a live and vital engagement, Rolfe&rsquo;s performances involve interactions with raw materials, natural elements such as water, fire, air, and earth, as well as environments, in what he calls &ldquo;works made live&rdquo;.</p>
 
               <p>Paula Fitzsimons is an Irish visual artist using modes of live performance art, photography, moving image, sound, text and expanded drawing technique to make time-based works of art. She works with ephemeral, natural and found materials. Her art practice is informed by movements such as Fluxus, Gutai and Arte Povera, in a world of things, to convene and orchestrate a weave of material crisis as an art practice without edges.</p>
 
-              <p>The performances of Rolfe and Fitzsimons will be accompanied by works from artists Michele Bernabei, Robert di Pauli Gruber, Imants Daksis, Kevin Daryl Ferdinandus, Peter Fritzenwallner, Laura Hatting, Markus Redl, Mersedes Margoit, Céline Struger, and Lissie Rettenwander. The event will also feature an artist talk moderated by Andreas Spiegl (Academy of Fine Arts Vienna).</p>
+              <p>Parole of an Apparition features works by Michele Bernabei, Robert di Pauli Gruber, Imants Daksis, Kevin Daryl Ferdinandus, Paula Fitzsimons, Peter Fritzenwallner, Laura Hatting, Anna Hofbauer, Mersedes Margoit, Markus Redl, Lissie Rettenwander, Nigel Rolfe, and Céline Struger. The programme will also include an artist talk with Andreas Spiegl from the Academy of Fine Arts Vienna.</p>
             </div>
 
             <div className="space-y-4">
@@ -36,8 +72,8 @@ export default function Info() {
             </div>
 
             <div className="space-y-4">
-              <p>Text by Robert Gruber. <a href="/parole" className="hover:underline">Link to page parole</a></p>
-              <p>Parole of an Apparition is presented by <a href="#" className="hover:underline">gottrekorder - association of artists</a> and <a href="#" className="hover:underline">HM Communication / Hema Makwana</a></p>
+              <p><a href="/parole" className="hover:underline">Text by Robert Gruber</a>.</p>
+              <p>Parole of an Apparition is presented by <button onClick={() => setActiveModal('gottrekorder')} className="hover:underline text-black">gottrekorder - association of artists</button> and <button onClick={() => setActiveModal('hm')} className="hover:underline text-black">HM Communication / Hema Makwana</button></p>
             </div>
           </div>
 
@@ -65,7 +101,7 @@ export default function Info() {
 
             <div>
               <h3 className="font-semibold mb-4 text-base">team</h3>
-              <div className="text-sm space-y-4">
+              <div className="text-sm space-y-6">
                 <div className="space-y-2">
                   <p>Martina Egger</p>
                   <p>Kevin Daryl Ferdinandus</p>
@@ -75,13 +111,9 @@ export default function Info() {
                   <p>Manfred Stocker</p>
                 </div>
                 
-                <hr className="border-gray-300" />
-                
                 <div className="space-y-2">
                   <p>Hema Makwana</p>
                 </div>
-                
-                <hr className="border-gray-300" />
                 
                 <div className="space-y-2">
                   <p>Michael Dietrich</p>
@@ -130,6 +162,35 @@ export default function Info() {
           </div>
         </div>
       </div>
+
+      {/* Modals */}
+      {activeModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 p-4" onClick={() => setActiveModal(null)}>
+          <div className="bg-white rounded-lg p-6 max-w-md w-full max-h-[80vh] overflow-y-auto shadow-2xl border border-gray-200" onClick={(e) => e.stopPropagation()}>
+            <div className="flex justify-between items-start mb-4">
+              <h2 className="text-xl font-mono font-bold text-black">
+                {activeModal === 'gottrekorder' ? gottrekorderInfo.title : hmInfo.title}
+              </h2>
+              <button 
+                onClick={() => setActiveModal(null)}
+                className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none ml-4 flex-shrink-0"
+              >
+                ×
+              </button>
+            </div>
+            
+            <div className="space-y-4 font-mono text-sm text-black">
+              <p className="leading-relaxed">{activeModal === 'gottrekorder' ? gottrekorderInfo.content : hmInfo.content}</p>
+              
+              <div className="space-y-2 pt-2 border-t border-gray-100">
+                <p className="text-black"><strong className="text-black">E-Mail:</strong> <a href={`mailto:${activeModal === 'gottrekorder' ? gottrekorderInfo.email : hmInfo.email}`} className="hover:underline text-black">{activeModal === 'gottrekorder' ? gottrekorderInfo.email : hmInfo.email}</a></p>
+                <p className="text-black"><strong className="text-black">Web:</strong> <a href={activeModal === 'gottrekorder' ? `http://${gottrekorderInfo.web}` : `https://${hmInfo.web}`} target="_blank" rel="noopener noreferrer" className="hover:underline text-black">{activeModal === 'gottrekorder' ? gottrekorderInfo.web : hmInfo.web}</a></p>
+                <p className="text-black"><strong className="text-black">Instagram:</strong> <a href={`https://www.instagram.com/${activeModal === 'gottrekorder' ? gottrekorderInfo.instagram.replace('@', '') : hmInfo.instagram.replace('@', '')}`} target="_blank" rel="noopener noreferrer" className="hover:underline text-black">{activeModal === 'gottrekorder' ? gottrekorderInfo.instagram : hmInfo.instagram}</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

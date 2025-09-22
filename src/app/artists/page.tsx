@@ -9,7 +9,7 @@ export default function Artists() {
             <h2 className="font-semibold">NIGEL ROLFE (IRELAND)</h2>
             <p>Nigel Rolfe is recognised as a seminal figure in performance art and its history.</p>
             <p>Born on the Isle of Wight, Nigel Rolfe lives and works in Dublin. His work, which spans live performance, photography and sound, has received international acclaim and has been exhibited or performed in venues such as the Centre Pompidou in Paris, the Franklin Furnace in New York and the Institute for Contemporary Art Gallery in London, throughout Europe, North and South America and Asia. Retrospectives of his work have been held at the Irish Museum Of Modern Art in Dublin, the Musee D&rsquo;Art Moderne de la Ville De Paris and the Red Brick Art Museum in Beijing. He has exhibited in Biennales in Dublin, Paris, Sao Paulo, Busan, Gwangju and Venice and presented in numerous international art fairs. Galleries in Dublin, Paris and New York represent his work.</p>
-            <p className="text-gray-600"><a href="www.nigelrolfe.net" target="_blank" rel="noopener noreferrer" className="hover:underline">www.nigelrolfe.net</a></p>
+            <p className="text-gray-600"><a href="https://www.nigelrolfe.net" target="_blank" rel="noopener noreferrer" className="hover:underline">www.nigelrolfe.net</a></p>
           </div>
 
           <div className="space-y-3">
@@ -33,6 +33,20 @@ export default function Artists() {
           </div>
 
           <div className="space-y-3">
+            <h2 className="font-semibold">KEVIN DARYL FERDINANDUS (AUSTRIA)</h2>
+            <p>Kevin Daryl Ferdinandus (born in Coburg, Germany) is a media artist and videographer exploring the function of digital machines in ideological and political systems and networks. Focussing on errors, he challenges the notion of technological perfection and infallibility and draws attention to the inner workings of digital media and networks.</p>
+            <p>His works take digital form, primarily as video or image, without being limited to these media. What unites them methodologically is the use of the wrong tool, the wrong software, or deliberate sabotage of the mechanical part of production. This often results in an alienating aesthetic, revealing organic-looking structures and patterns within the digital realm.</p>
+            <p className="text-gray-600"><a href="https://www.kevindarylferdinandus.net/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.kevindarylferdinandus.net/</a></p>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="font-semibold">PETER FRITZENWALLNER (AUSTRIA)</h2>
+            <p>Peter Fritzenwallner (born 1983 in Neukirchen am Großvenediger, Austria) is a contemporary Austrian Artist working across painting, sculpture, storytelling, video, and primarily performance. He studied Visual Arts at the University for Applied Arts in Vienna and received the Austrian Staatsstipendium for Fine Arts.</p>
+            <p>Fritzenwallner&rsquo;s work is based on a dynamic interplay between narrative and material practice, in which narrative structures serve as the basis for sculptural and performative explorations, while at the same time the practical engagement with materials shapes and guides the stories told. His work has been shown internationally, including Austria, Germany, Italy, Taiwan, Sydney, India, the United States, France, Bulgaria, and China.</p>
+            <p className="text-gray-600"><a href="https://www.pfff.at/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.pfff.at/</a></p>
+          </div>
+
+          <div className="space-y-3">
             <h2 className="font-semibold">ROBERT GRUBER (AUSTRIA)</h2>
             <p>Robert Gruber (born 1979 in Styria) is an Austrian artist, writer and curator. His work encompasses visual art, photography, performance, and theory. He studied scenography, visual communication and music theory in Vienna, Oslo and Berlin and holds a PhD in philosophy.</p>
             <p>Gruber has been awarded the Austrian Staatsstipendium for Photography as well as a studio grant from the Federal Ministry of the Republic of Austria. His work has been exhibited internationally, including Austria, Germany, the United Kingdom, Italy, Slovenia, the Czech Republic, Poland, and the United States.</p>
@@ -41,10 +55,8 @@ export default function Artists() {
           </div>
 
           <div className="space-y-3">
-            <h2 className="font-semibold">KEVIN DARYL FERDINANDUS (AUSTRIA)</h2>
-            <p>Kevin Daryl Ferdinandus (born in Coburg, Germany) is a media artist and videographer exploring the function of digital machines in ideological and political systems and networks. Focussing on errors, he challenges the notion of technological perfection and infallibility and draws attention to the inner workings of digital media and networks.</p>
-            <p>His works take digital form, primarily as video or image, without being limited to these media. What unites them methodologically is the use of the wrong tool, the wrong software, or deliberate sabotage of the mechanical part of production. This often results in an alienating aesthetic, revealing organic-looking structures and patterns within the digital realm.</p>
-            <p className="text-gray-600"><a href="https://www.kevindarylferdinandus.net/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.kevindarylferdinandus.net/</a></p>
+            <h2 className="font-semibold">KATHRIN HANGA (AUSTRIA)</h2>
+            <p>Kathrin Hanga (*1988 Vienna) studied at Sorbonne Nouvelle, L&rsquo;École Internationale de Théâtre Jacques Lecoq Paris, Academy of Fine Arts Vienna and Tokyo University of the Arts. Her background in theater and film have led her to search for kineticism in her photography; the search for spontaneity only allowed through the honing of her technique and craft. Through the medium of film photography, and the use of analog printing techniques, Hanga creates images that dwell in the space between fact and fiction. Hanga works as a curator for the artist collective Gottrekorder e.v. and is part of the artist collective Ueno Syndicate. Her work was shown in New York, London, Tokyo and Vienna.</p>
           </div>
 
           <div className="space-y-3">
@@ -80,18 +92,6 @@ export default function Artists() {
             <p>Lissie Rettenwander is an Austrian composer, singer, performer and voice and sound artist. Born in Kitzbühel, she grew up on a farm in Gundhabing, where her musical journey began. Rettenwander uncompromisingly embraces the balancing act between tradition and avantgarde.</p>
             <p>As a composer-performer, she works with voice, zither, accordion, guitar, metronomes, tuning forks, fabric songbirds, shepherd&rsquo;s calls, electronics, spaces, and the mini amplifier Vox. In her soundscape, multi-timbrality and polyphony emerge in one. Lissie is based in Vienna and works as an art teacher in Vienna-Simmering.</p>
             <p className="text-gray-600"><a href="https://lissierettenwander.bandcamp.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://lissierettenwander.bandcamp.com/</a></p>
-          </div>
-
-          <div className="space-y-3">
-            <h2 className="font-semibold">PETER FRITZENWALLNER (AUSTRIA)</h2>
-            <p>Peter Fritzenwallner (born 1983 in Neukirchen am Großvenediger, Austria) is a contemporary Austrian Artist working across painting, sculpture, storytelling, video, and primarily performance. He studied Visual Arts at the University for Applied Arts in Vienna and received the Austrian Staatsstipendium for Fine Arts.</p>
-            <p>Fritzenwallner&rsquo;s work is based on a dynamic interplay between narrative and material practice, in which narrative structures serve as the basis for sculptural and performative explorations, while at the same time the practical engagement with materials shapes and guides the stories told. His work has been shown internationally, including Austria, Germany, Italy, Taiwan, Sydney, India, the United States, France, Bulgaria, and China.</p>
-            <p className="text-gray-600"><a href="https://www.pfff.at/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.pfff.at/</a></p>
-          </div>
-
-          <div className="space-y-3">
-            <h2 className="font-semibold">KATHRIN HANGA (AUSTRIA)</h2>
-            <p>Kathrin Hanga (*1988 Vienna) studied at Sorbonne Nouvelle, L&rsquo;École Internationale de Théâtre Jacques Lecoq Paris, Academy of Fine Arts Vienna and Tokyo University of the Arts. Her background in theater and film have led her to search for kineticism in her photography; the search for spontaneity only allowed through the honing of her technique and craft. Through the medium of film photography, and the use of analog printing techniques, Hanga creates images that dwell in the space between fact and fiction. Hanga works as a curator for the artist collective Gottrekorder e.v. and is part of the artist collective Ueno Syndicate. Her work was shown in New York, London, Tokyo and Vienna.</p>
           </div>
 
           <div className="space-y-3">
