@@ -1,10 +1,26 @@
 'use client';
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const [activeModal, setActiveModal] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setActiveModal(null);
+      }
+    };
+
+    if (activeModal) {
+      document.addEventListener('keydown', handleEscape);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleEscape);
+    };
+  }, [activeModal]);
 
   const gottrekorderInfo = {
     title: "gottrekorder e.v.",
