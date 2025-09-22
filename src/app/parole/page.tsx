@@ -104,8 +104,8 @@ export default function Manifesto() {
             
             <div className="mt-6 text-right text-xs">
               <p>D.S.</p>
-              <p className="mt-2">R.G. für gottrekorder e.v.</p>
-              <p>Wien, 31.08.2025</p>
+              <p className="mt-2">R.G. für gottrekorder e.v., Wien, 31.08.2025.</p>
+              <p className="mt-2">Translated by Jonathan Uhlaner.</p>
             </div>
           </div>
         </div>

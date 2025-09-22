@@ -16,19 +16,19 @@ export default function Navbar() {
     { name: 'pt 3', href: '/pt3' },
     { name: 'pt 4', href: '/pt4' },
     { name: 'artists', href: '/artists' },
-    { name: 'parole', href: '/manifesto' },
+    { name: 'parole', href: '/parole' },
     { name: 'contact', href: '/contact' }
   ];
 
   return (
     <nav className="fixed md:right-4 md:top-6 bottom-4 left-4 right-4 md:left-auto md:bottom-auto">
       {/* Desktop layout - vertical */}
-      <div className="hidden md:flex flex-col space-y-1">
+      <div className="hidden md:flex flex-col space-y-0.5">
         {tabs.map((tab) => (
           <Link
             key={tab.name}
             href={tab.href}
-            className={`text-lg font-mono ${
+            className={`text-base font-mono ${
               pathname === tab.href 
                 ? 'text-black underline' 
                 : 'text-gray-500 hover:text-black'

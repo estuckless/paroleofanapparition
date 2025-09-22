@@ -21,7 +21,7 @@ export default function Pt4() {
           <div className="space-y-2">
             <p><strong>talk:</strong></p>
             <div className="ml-4 space-y-1">
-              <p>moderated by Andreas Spiegl</p>
+              <p>artists with Andreas Spiegl</p>
             </div>
           </div>
 

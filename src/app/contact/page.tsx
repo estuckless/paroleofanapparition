@@ -9,7 +9,7 @@ export default function Contact() {
             <h2 className="font-semibold">gottrekorder – association of artists</h2>
             <div className="space-y-2">
               <p>E-Mail: office@gottrekorder.com</p>
-              <p>Web: <a href="https://gottrekorder.com" target="_blank" rel="noopener noreferrer" className="hover:underline">gottrekorder.com</a></p>
+              <p>Web: <a href="http://gottrekorder.com" target="_blank" rel="noopener noreferrer" className="hover:underline">gottrekorder.com</a></p>
               <p>Instagram: <a href="https://www.instagram.com/gottrekorder" target="_blank" rel="noopener noreferrer" className="hover:underline">@gottrekorder</a></p>
             </div>
           </div>

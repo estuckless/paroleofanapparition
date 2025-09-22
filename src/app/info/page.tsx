@@ -34,6 +34,11 @@ export default function Info() {
                 <p><a href="/pt4" className="hover:underline"><strong>Part 4:</strong> Tuesday, 14.10.2025, 18:30 – Haus der Industrie</a></p>
               </div>
             </div>
+
+            <div className="space-y-4">
+              <p>Text by Robert Gruber. <a href="/parole" className="hover:underline">Link to page parole</a></p>
+              <p>Parole of an Apparition is presented by <a href="#" className="hover:underline">gottrekorder - association of artists</a> and <a href="#" className="hover:underline">HM Communication / Hema Makwana</a></p>
+            </div>
           </div>
 
           {/* Right Column - Lists */}
@@ -47,7 +52,8 @@ export default function Info() {
                 <p>Paula Fitzsimons</p>
                 <p>Peter Fritzenwallner</p>
                 <p>Robert di Pauli Gruber</p>
-                <p>Laura Hatting</p>
+                <p>GNEVER</p>
+                <p>Kathrin Hanga</p>
                 <p>Anna Hofbauer</p>
                 <p>Mersedes Margoit</p>
                 <p>Markus Redl</p>
@@ -59,17 +65,30 @@ export default function Info() {
 
             <div>
               <h3 className="font-semibold mb-4 text-base">team</h3>
-              <div className="text-sm space-y-2">
-                <p>Michael Dietrich</p>
-                <p>Martina Egger</p>
-                <p>Kevin Daryl Ferdinandus</p>
-                <p>Robert Gruber</p>
-                <p>Kathrin Hanga</p>
-                <p>Luisa Franz Kleopatra</p>
-                <p>Hema Makwana</p>
-                <p>Manfred Stocker</p>
-                <p>Florian Strasser</p>
-                <p>Eugene Stuckless</p>
+              <div className="text-sm space-y-4">
+                <div className="space-y-2">
+                  <p>Martina Egger</p>
+                  <p>Kevin Daryl Ferdinandus</p>
+                  <p>Robert Gruber</p>
+                  <p>Kathrin Hanga</p>
+                  <p>Luisa Franz Kleopatra</p>
+                  <p>Manfred Stocker</p>
+                </div>
+                
+                <hr className="border-gray-300" />
+                
+                <div className="space-y-2">
+                  <p>Hema Makwana</p>
+                </div>
+                
+                <hr className="border-gray-300" />
+                
+                <div className="space-y-2">
+                  <p>Michael Dietrich</p>
+                  <p>Sarah Sharafi</p>
+                  <p>Florian Strasser</p>
+                  <p>Eugene Teira</p>
+                </div>
               </div>
             </div>
 
@@ -104,11 +123,8 @@ export default function Info() {
                   <Image src="/images/logos/Weingut Schauer Südsteiermark_Logo.jpg" alt="Weingut Schauer" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/hm_communication-01.png" alt="HM Communication" fill className="object-contain" />
+                  <Image src="/images/logos/kopf_monatsblatt.tif" alt="Votivkirche" fill className="object-contain" />
                 </div>
-              </div>
-              <div className="mt-4 text-sm text-center">
-                <p>Votivkirche</p>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function Artists() {
             <h2 className="font-semibold">NIGEL ROLFE (IRELAND)</h2>
             <p>Nigel Rolfe is recognised as a seminal figure in performance art and its history.</p>
             <p>Born on the Isle of Wight, Nigel Rolfe lives and works in Dublin. His work, which spans live performance, photography and sound, has received international acclaim and has been exhibited or performed in venues such as the Centre Pompidou in Paris, the Franklin Furnace in New York and the Institute for Contemporary Art Gallery in London, throughout Europe, North and South America and Asia. Retrospectives of his work have been held at the Irish Museum Of Modern Art in Dublin, the Musee D&rsquo;Art Moderne de la Ville De Paris and the Red Brick Art Museum in Beijing. He has exhibited in Biennales in Dublin, Paris, Sao Paulo, Busan, Gwangju and Venice and presented in numerous international art fairs. Galleries in Dublin, Paris and New York represent his work.</p>
-            <p className="text-gray-600"><a href="https://www.nigelrolfe.com" target="_blank" rel="noopener noreferrer" className="hover:underline">www.nigelrolfe.com</a></p>
+            <p className="text-gray-600"><a href="www.nigelrolfe.net" target="_blank" rel="noopener noreferrer" className="hover:underline">www.nigelrolfe.net</a></p>
           </div>
 
           <div className="space-y-3">
@@ -48,7 +48,7 @@ export default function Artists() {
           </div>
 
           <div className="space-y-3">
-            <h2 className="font-semibold">LAURA HATTING (AUSTRIA)</h2>
+            <h2 className="font-semibold">GNEVER / LAURA HATTING (AUSTRIA)</h2>
             <p>Laura Hatting (born 1994 in Leipzig) is a visual artist and musician. She studied Visual Arts at the Academy of Fine Arts. Her artistic practice and work ethic are hybrid, transdisciplinary and often time-based and/or site-specific. Hatting works across writing, music, performance and drawing, and translates her drawings into ink, print and sculpture.</p>
             <p>In her practice, she merges all skills from all fields that are her life&mdash;may they seem incompatible or not. As her black metal alter ego GNEVER, she creates music performances with voice and electric guitar that combine visual art, black metal, science fiction, and philosophy. Her current work explores the dissolution of the real in favour of more &ldquo;productive&rdquo; concepts within a capitalism confronted with resource scarcity. Laura works and lives in Vienna.</p>
             <p className="text-gray-600"><a href="https://www.instagram.com/laurrrraaaahr/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.instagram.com/laurrrraaaahr/</a></p>
@@ -63,7 +63,7 @@ export default function Artists() {
           </div>
 
           <div className="space-y-3">
-            <h2 className="font-semibold">MERSEDES MARGOIT</h2>
+            <h2 className="font-semibold">MERSEDES MARGOIT (LATVIA)</h2>
             <p>Mersedes Margoit is a Latvian video artist. Although studied photography in London, she developed a stronger interest in video, establishing her own niche in the experimental filmmaking scene. She is an active member of the Baltic Analog Lab artist collective in Riga, Latvia and works with 16mm and Super 8mm analog film, as well as digital video. Mersedes Margoit is working professionally in Riga for over 3 years now.</p>
             <p className="text-gray-600"><a href="https://www.instagram.com/shotbymersedesm/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.instagram.com/shotbymersedesm/</a></p>
           </div>
@@ -87,6 +87,11 @@ export default function Artists() {
             <p>Peter Fritzenwallner (born 1983 in Neukirchen am Großvenediger, Austria) is a contemporary Austrian Artist working across painting, sculpture, storytelling, video, and primarily performance. He studied Visual Arts at the University for Applied Arts in Vienna and received the Austrian Staatsstipendium for Fine Arts.</p>
             <p>Fritzenwallner&rsquo;s work is based on a dynamic interplay between narrative and material practice, in which narrative structures serve as the basis for sculptural and performative explorations, while at the same time the practical engagement with materials shapes and guides the stories told. His work has been shown internationally, including Austria, Germany, Italy, Taiwan, Sydney, India, the United States, France, Bulgaria, and China.</p>
             <p className="text-gray-600"><a href="https://www.pfff.at/" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.pfff.at/</a></p>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="font-semibold">KATHRIN HANGA (AUSTRIA)</h2>
+            <p>Kathrin Hanga (*1988 Vienna) studied at Sorbonne Nouvelle, L&rsquo;École Internationale de Théâtre Jacques Lecoq Paris, Academy of Fine Arts Vienna and Tokyo University of the Arts. Her background in theater and film have led her to search for kineticism in her photography; the search for spontaneity only allowed through the honing of her technique and craft. Through the medium of film photography, and the use of analog printing techniques, Hanga creates images that dwell in the space between fact and fiction. Hanga works as a curator for the artist collective Gottrekorder e.v. and is part of the artist collective Ueno Syndicate. Her work was shown in New York, London, Tokyo and Vienna.</p>
           </div>
 
           <div className="space-y-3">
