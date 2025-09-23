@@ -57,6 +57,7 @@ export default function Artists() {
           <div className="space-y-3">
             <h2 className="font-semibold">KATHRIN HANGA (AUSTRIA)</h2>
             <p>Kathrin Hanga (*1988 Vienna) studied at Sorbonne Nouvelle, L&rsquo;École Internationale de Théâtre Jacques Lecoq Paris, Academy of Fine Arts Vienna and Tokyo University of the Arts. Her background in theater and film have led her to search for kineticism in her photography; the search for spontaneity only allowed through the honing of her technique and craft. Through the medium of film photography, and the use of analog printing techniques, Hanga creates images that dwell in the space between fact and fiction. Hanga works as a curator for the artist collective Gottrekorder e.v. and is part of the artist collective Ueno Syndicate. Her work was shown in New York, London, Tokyo and Vienna.</p>
+            <p className="text-gray-600"><a href="https://www.kathrinhanga.com" target="_blank" rel="noopener noreferrer" className="hover:underline">https://www.kathrinhanga.com</a></p>
           </div>
 
           <div className="space-y-3">

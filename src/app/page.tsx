@@ -54,11 +54,11 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-1 p-4">
             {/* Logo slots - adjust positioning as needed */}
             <div></div>
-            <button onClick={() => setActiveModal('gottrekorder')} className="w-20 h-20 relative hover:opacity-80 transition-opacity">
+            <button onClick={() => setActiveModal('gottrekorder')} className="w-20 h-20 relative hover:opacity-80 transition-opacity cursor-pointer">
               <Image src="/images/logos/gottrekorderlogo1.jpg" alt="gottrekorder" fill className="object-contain" />
             </button>
             <div></div>
-            <button onClick={() => setActiveModal('hm')} className="w-20 h-20 relative hover:opacity-80 transition-opacity">
+            <button onClick={() => setActiveModal('hm')} className="w-20 h-20 relative hover:opacity-80 transition-opacity cursor-pointer">
               <Image src="/images/logos/hm_communication-01.png" alt="HM Communication" fill className="object-contain" />
             </button>
           </div>
