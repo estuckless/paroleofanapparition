@@ -17,6 +17,7 @@ export default function Navbar() {
     { name: 'pt 4', href: '/pt4' },
     { name: 'artists', href: '/artists' },
     { name: 'parole', href: '/parole' },
+    { name: 'press', href: '/press' },
     { name: 'contact', href: '/contact' }
   ];
 

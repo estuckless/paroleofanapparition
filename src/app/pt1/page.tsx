@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Pt1() {
   return (
     <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
@@ -32,6 +34,9 @@ export default function Pt1() {
               <p>Use entrance to the castle in the western part of the site (next to Neugebäudestraße)</p>
               <p><strong>By public transport:</strong> Take U3 to Simmering and then bus 73A to Schloss Neugebäude</p>
               <p><strong>By car:</strong> Free parking in the courtyard, access via Neugebäudestraße 80</p>
+            </div>
+            <div className="mt-4 relative w-full h-[400px]">
+              <Image src="/images/Directions.png" alt="Directions to Schloss Neugebäude" fill className="object-contain" />
             </div>
           </div>
         </div>
