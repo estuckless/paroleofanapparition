@@ -11,16 +11,17 @@ export default function Contact() {
               <p>E-Mail: office@gottrekorder.com</p>
               <p>Web: <a href="http://gottrekorder.com" target="_blank" rel="noopener noreferrer" className="hover:underline">gottrekorder.com</a></p>
               <p>Instagram: <a href="https://www.instagram.com/gottrekorder" target="_blank" rel="noopener noreferrer" className="hover:underline">@gottrekorder</a></p>
+              <br />
             </div>
           </div>
 
           <div className="space-y-4">
-            <h2 className="font-semibold">HM Communication</h2>
+            <h2 className="font-semibold">HM Communication / Hema Makwana</h2>
             <div className="space-y-2">
-              <p><strong>Hema Makwana</strong></p>
               <p>E-Mail: office@hmcommunication.eu</p>
               <p>Web: <a href="https://hmcommunication.eu" target="_blank" rel="noopener noreferrer" className="hover:underline">hmcommunication.eu</a></p>
               <p>Instagram: <a href="https://www.instagram.com/_hm_communication" target="_blank" rel="noopener noreferrer" className="hover:underline">@_hm_communication</a></p>
+              <br />
             </div>
           </div>
 

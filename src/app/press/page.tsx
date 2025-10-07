@@ -20,7 +20,7 @@ export default function Press() {
               className="object-contain"
             />
           </a>
-          <p className="text-center italic">Brought to my knees, 2022 © Nigel Rolfe</p>
+          <p className="text-center italic mt-1">Brought to my knees, 2022 © Nigel Rolfe</p>
 
           <div className="space-y-4 mt-8">
             <h2 className="font-semibold">Articles</h2>

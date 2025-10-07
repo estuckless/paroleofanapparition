@@ -35,8 +35,8 @@ export default function Pt1() {
               <p><strong>By public transport:</strong> Take U3 to Simmering and then bus 73A to Schloss Neugebäude</p>
               <p><strong>By car:</strong> Free parking in the courtyard, access via Neugebäudestraße 80</p>
             </div>
-            <div className="mt-4 relative w-full h-[400px]">
-              <Image src="/images/Directions.png" alt="Directions to Schloss Neugebäude" fill className="object-contain" />
+            <div className="relative w-full h-[250px]">
+              <Image src="/images/Directions-Small.png" alt="Directions to Schloss Neugebäude" fill className="object-contain" />
             </div>
           </div>
         </div>

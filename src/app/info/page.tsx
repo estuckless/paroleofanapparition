@@ -73,12 +73,13 @@ export default function Info() {
 
             <div className="space-y-4">
               <p><a href="/parole" className="hover:underline">Text by Robert Gruber</a>.</p>
+              <br />
               <p>Parole of an Apparition is presented by <button onClick={() => setActiveModal('gottrekorder')} className="hover:underline text-black">gottrekorder - association of artists</button> and <button onClick={() => setActiveModal('hm')} className="hover:underline text-black">HM Communication / Hema Makwana</button></p>
 
               <div className="space-y-4 mt-6">
-                <p>gottrekorder e.v. is an international association of artists based in Graz and Vienna (Austria) founded in 2002. Since 2015, gottrekorder has curated numerous art exhibitions and collaborative projects including visual arts, sound, music, literature, installation and performance, with both Austrian and international artists. <a href="http://www.gottrekorder.com" target="_blank" rel="noopener noreferrer" className="hover:underline">www.gottrekorder.com</a>, <a href="https://www.instagram.com/gottrekorder" target="_blank" rel="noopener noreferrer" className="hover:underline">www.instagram.com/gottrekorder</a></p>
+                <p><strong>gottrekorder e.v.</strong> is an international association of artists based in Graz and Vienna (Austria) founded in 2002. Since 2015, gottrekorder has curated numerous art exhibitions and collaborative projects including visual arts, sound, music, literature, installation and performance, with both Austrian and international artists. <a href="http://www.gottrekorder.com" target="_blank" rel="noopener noreferrer" className="hover:underline">www.gottrekorder.com</a>, <a href="https://www.instagram.com/gottrekorder" target="_blank" rel="noopener noreferrer" className="hover:underline">www.instagram.com/gottrekorder</a></p>
 
-                <p>HM Communication was founded by Hema Makwana and is based in Vienna/Austria. For the past fifteen-plus years, Hema and her team have been trusted and close advisors to collectors providing personal and bespoke collection management services, and working directly with clients on the implementation of ideas primarily in the DACH region and the UK. Independently, HM Communication is also a supportive companion for contemporary artists and creatives from various fields. Hema brings exceptional ideas to life by guiding and assisting the artists creatives in expanding their careers. <a href="https://www.hmcommunication.eu" target="_blank" rel="noopener noreferrer" className="hover:underline">www.hmcommunication.eu</a>, <a href="https://www.instagram.com/_hm_communication" target="_blank" rel="noopener noreferrer" className="hover:underline">www.instagram.com/_hm_communication</a></p>
+                <p><strong>HM Communication</strong> was founded by Hema Makwana and is based in Vienna/Austria. For the past fifteen-plus years, Hema and her team have been trusted and close advisors to collectors providing personal and bespoke collection management services, and working directly with clients on the implementation of ideas primarily in the DACH region and the UK. Independently, HM Communication is also a supportive companion for contemporary artists and creatives from various fields. Hema brings exceptional ideas to life by guiding and assisting the artists creatives in expanding their careers. <a href="https://www.hmcommunication.eu" target="_blank" rel="noopener noreferrer" className="hover:underline">www.hmcommunication.eu</a>, <a href="https://www.instagram.com/_hm_communication" target="_blank" rel="noopener noreferrer" className="hover:underline">www.instagram.com/_hm_communication</a></p>
               </div>
             </div>
           </div>
@@ -122,7 +123,6 @@ export default function Info() {
 
                 <div className="space-y-2">
                   <p>Michael Dietrich</p>
-                  <p>Sarah Sharafi</p>
                   <p>Florian Strasser</p>
                   <p>Eugene Teira</p>
                 </div>
@@ -133,40 +133,46 @@ export default function Info() {
               <h3 className="font-semibold mb-4 text-base">sponsors</h3>
               <div className="grid grid-cols-3 gap-4">
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/A_Industriellenvereinigung.jpg" alt="Industriellenvereinigung" fill className="object-contain" />
+                  <Image src="/images/logos/3_Bezirk Alsergrund.png" alt="Bezirk Alsergrund" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/A_Schloss Neugebäude.jpg" alt="Schloss Neugebäude" fill className="object-contain" />
+                  <Image src="/images/logos/2_Bezirk Landstraße.png" alt="Bezirk Landstraße" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/A_Votivkirche.tif" alt="Votivkirche" fill className="object-contain" />
+                  <Image src="/images/logos/1_Bundesministerium für Wohnen Kunst Kultur Medien und Sport.jpg" alt="Bundesministerium" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Bezirk Alsergrund.png" alt="Bezirk Alsergrund" fill className="object-contain" />
+                  <Image src="/images/logos/7_Fredelia.png" alt="Fredelia" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Bezirk Landstraße.png" alt="Bezirk Landstraße" fill className="object-contain" />
+                  <Image src="/images/logos/13_HOFMANN_Logo.png" alt="Hofmann" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Bundesministerium für Wohnen Kunst Kultur Medien und Sport.jpg" alt="Bundesministerium" fill className="object-contain" />
+                  <Image src="/images/logos/4_Industriellenvereinigung.jpg" alt="Industriellenvereinigung" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/E_WKO wien web.png" alt="WKO Wien" fill className="object-contain" />
+                  <Image src="/images/logos/8_jaf_logo_at_rgb_positiv.svg" alt="JAF" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Fredelia.png" alt="Fredelia" fill className="object-contain" />
+                  <Image src="/images/logos/14_Joseph.JB_Wortmarke_RGB.svg" alt="Joseph JB" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/jaf_logo_at_rgb_positiv.svg" alt="JAF" fill className="object-contain" />
+                  <Image src="/images/logos/10_Österreichischer Weinbauverband_Logo.jpg" alt="Österreichischer Weinbauverband" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Österreichischer Weinbauverband_Logo.jpg" alt="Österreichischer Weinbauverband" fill className="object-contain" />
+                  <Image src="/images/logos/5_Schloss Neugebäude.jpg" alt="Schloss Neugebäude" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Weingut Mayer am Pfarrplatz_Logo.png" alt="Weingut Mayer am Pfarrplatz" fill className="object-contain" />
+                  <Image src="/images/logos/6_Votivkirche.tif" alt="Votivkirche" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/Weingut Schauer Südsteiermark_Logo.jpg" alt="Weingut Schauer Südsteiermark" fill className="object-contain" />
+                  <Image src="/images/logos/11_Weingut Mayer am Pfarrplatz_Logo.png" alt="Weingut Mayer am Pfarrplatz" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/12_Weingut Schauer Südsteiermark_Logo.jpg" alt="Weingut Schauer Südsteiermark" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/WKO Expanded.png" alt="WKO Wien" fill className="object-contain" style={{transform: 'scale(1.2)'}} />
                 </div>
               </div>
             </div>
