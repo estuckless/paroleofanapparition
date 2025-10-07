@@ -133,31 +133,16 @@ export default function Info() {
               <h3 className="font-semibold mb-4 text-base">sponsors</h3>
               <div className="grid grid-cols-3 gap-4">
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/3_Bezirk Alsergrund.png" alt="Bezirk Alsergrund" fill className="object-contain" />
+                  <Image src="/images/logos/1_Bundesministerium für Wohnen Kunst Kultur Medien und Sport.jpg" alt="Bundesministerium" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
                   <Image src="/images/logos/2_Bezirk Landstraße.png" alt="Bezirk Landstraße" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/1_Bundesministerium für Wohnen Kunst Kultur Medien und Sport.jpg" alt="Bundesministerium" fill className="object-contain" />
-                </div>
-                <div className="relative h-16 w-full">
-                  <Image src="/images/logos/7_Fredelia.png" alt="Fredelia" fill className="object-contain" />
-                </div>
-                <div className="relative h-16 w-full">
-                  <Image src="/images/logos/13_HOFMANN_Logo.png" alt="Hofmann" fill className="object-contain" />
+                  <Image src="/images/logos/3_Bezirk Alsergrund.png" alt="Bezirk Alsergrund" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
                   <Image src="/images/logos/4_Industriellenvereinigung.jpg" alt="Industriellenvereinigung" fill className="object-contain" />
-                </div>
-                <div className="relative h-16 w-full">
-                  <Image src="/images/logos/8_jaf_logo_at_rgb_positiv.svg" alt="JAF" fill className="object-contain" />
-                </div>
-                <div className="relative h-16 w-full">
-                  <Image src="/images/logos/14_Joseph.JB_Wortmarke_RGB.svg" alt="Joseph JB" fill className="object-contain" />
-                </div>
-                <div className="relative h-16 w-full">
-                  <Image src="/images/logos/10_Österreichischer Weinbauverband_Logo.jpg" alt="Österreichischer Weinbauverband" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
                   <Image src="/images/logos/5_Schloss Neugebäude.jpg" alt="Schloss Neugebäude" fill className="object-contain" />
@@ -166,13 +151,28 @@ export default function Info() {
                   <Image src="/images/logos/6_Votivkirche.tif" alt="Votivkirche" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
+                  <Image src="/images/logos/7_Fredelia.png" alt="Fredelia" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/8_jaf_logo_at_rgb_positiv.svg" alt="JAF" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/WKO Expanded.png" alt="WKO Wien" fill className="object-contain" style={{transform: 'scale(1.2)'}} />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/10_Österreichischer Weinbauverband_Logo.jpg" alt="Österreichischer Weinbauverband" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
                   <Image src="/images/logos/11_Weingut Mayer am Pfarrplatz_Logo.png" alt="Weingut Mayer am Pfarrplatz" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
                   <Image src="/images/logos/12_Weingut Schauer Südsteiermark_Logo.jpg" alt="Weingut Schauer Südsteiermark" fill className="object-contain" />
                 </div>
                 <div className="relative h-16 w-full">
-                  <Image src="/images/logos/WKO Expanded.png" alt="WKO Wien" fill className="object-contain" style={{transform: 'scale(1.2)'}} />
+                  <Image src="/images/logos/13_HOFMANN_Logo.png" alt="Hofmann" fill className="object-contain" />
+                </div>
+                <div className="relative h-16 w-full">
+                  <Image src="/images/logos/14_Joseph.JB_Wortmarke_RGB.svg" alt="Joseph JB" fill className="object-contain" />
                 </div>
               </div>
             </div>
