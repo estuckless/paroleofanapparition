@@ -1,6 +1,12 @@
 import Image from "next/image";
+import Gallery from "@/components/Gallery";
+import { sortImages } from '@/utils/sortImages';
 
 export default function Pt2() {
+  const images = sortImages([
+    "10.jpg", "4 GNEVER.jpg", "6.jpg", "7 Imants Daksis & Mersedes Margoit.jpg", "8.jpg", "9.jpg"
+  ]);
+
   return (
     <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
       <div className="max-w-2xl mx-auto font-mono text-sm space-y-4 text-black">
@@ -29,20 +35,7 @@ export default function Pt2() {
 
           <div className="pt-8 space-y-4">
             <h2 className="font-semibold">Gallery</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                "10.jpg", "4 GNEVER.jpg", "6.jpg", "7 Imants Daksis & Mersedes Margoit.jpg", "8.jpg", "9.jpg"
-              ].map((img, i) => (
-                <div key={i} className="relative w-full h-[300px]">
-                  <Image
-                    src={`/images/pt2/${img}`}
-                    alt={`Part 2 Image ${i + 1}`}
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              ))}
-            </div>
+            <Gallery images={images} basePath="/images/pt2" />
           </div>
         </div>
       </div>

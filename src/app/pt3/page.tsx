@@ -1,6 +1,14 @@
 import Image from "next/image";
+import Gallery from "@/components/Gallery";
+import { sortImages } from '@/utils/sortImages';
 
 export default function Pt3() {
+  const images = sortImages([
+    "1.jpg", "10.Paula&Nigel_100.jpg", "11. Paula&Nigel_108.jpg", "12.jpg", "2.jpg",
+    "3.jpg", "4.jpg", "5.jpg", "6.Paula&Nigel_079.jpg", "7.Paula&Nigel_080.jpg",
+    "9.Paula&Nigel_091.jpg"
+  ]);
+
   return (
     <div className="min-h-screen bg-white p-4 pb-56 md:pb-4">
       <div className="max-w-2xl mx-auto font-mono text-sm space-y-4 text-black">
@@ -30,22 +38,7 @@ export default function Pt3() {
 
           <div className="pt-8 space-y-4">
             <h2 className="font-semibold">Gallery</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[
-                "1.jpg", "10.Paula&Nigel_100.jpg", "11. Paula&Nigel_108.jpg", "12.jpg", "2.jpg",
-                "3.jpg", "4.jpg", "5.jpg", "6.Paula&Nigel_079.jpg", "7.Paula&Nigel_080.jpg",
-                "9.Paula&Nigel_091.jpg"
-              ].map((img, i) => (
-                <div key={i} className="relative w-full h-[300px]">
-                  <Image
-                    src={`/images/pt3/${img}`}
-                    alt={`Part 3 Image ${i + 1}`}
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              ))}
-            </div>
+            <Gallery images={images} basePath="/images/pt3" />
           </div>
         </div>
       </div>
