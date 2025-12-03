@@ -11,7 +11,7 @@ export default function Pt1() {
             <p><strong>where:</strong> Schloss Neugebäude, Vienna</p>
             <p><strong>when:</strong> Wednesday, 08.10.2025, 18:00-23:00 (Doors 18:00, Start 18:30)</p>
           </div>
-          
+
           <div className="space-y-2">
             <p><strong>artists:</strong></p>
             <div className="ml-4 space-y-1">
@@ -37,6 +37,30 @@ export default function Pt1() {
             </div>
             <div className="relative w-full h-[250px]">
               <Image src="/images/Directions-Small.png" alt="Directions to Schloss Neugebäude" fill className="object-contain" />
+            </div>
+          </div>
+
+          <div className="pt-8 space-y-4">
+            <h2 className="font-semibold">Gallery</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {[
+                "1. Part1_SNG-69.jpg", "10.Part1_SNG-24.jpg", "2. Part1_SNG-75.jpg", "3.Part1_SNG-54.jpg",
+                "4.Part1_SNG-62.jpg", "5.Part1_SNG-53.jpg", "6.Part1_SNG-42.jpg", "7.Part1_SNG-78.jpg",
+                "8.Part1_SNG-58.jpg", "9.Part1_SNG-61.jpg",
+                "1 Nigel Rolfe.jpg", "10 Imants Daksis.jpg", "11.jpg", "12.jpg", "2 Nigel Rolfe.jpg",
+                "3  Paula Fitzsimons.jpg", "4  Paula Fitzsimons.jpg", "5 Lissie Rettenwander.jpg",
+                "6 Lissie Rettenwander.jpg", "7 Peter Fritzenwallner.jpg", "8 Peter Fritzenwallner.jpg",
+                "9 Imants Daksis.jpg"
+              ].map((img, i) => (
+                <div key={i} className="relative w-full h-[300px]">
+                  <Image
+                    src={`/images/pt1/${img}`}
+                    alt={`Part 1 Image ${i + 1}`}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>

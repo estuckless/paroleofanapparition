@@ -121,10 +121,10 @@ export default function Manifesto() {
 
             <div className="mt-12">
               <h3 className="font-bold text-center mb-6">~PRE-WORLD / E-VENT ~</h3>
-              <p className="italic">That the world is not what is the case.<sup>1</sup></p>
+              <p className="italic">That the world is not what is the case.</p>
             </div>
 
-            <p className="mt-6">In Western culture, formerly the First World, the world as a nominal, technological-media art form/description has evidently undergone a transformation whose ending may now be said to be said to be ongoing. The protagonists of art, pursuing the business of staging commodities, had begun to confuse the arrangement of the pretend game in which they locate themselves, establishing references to more or less current but ultimately still originally authentic, historically and geographically locatable events, with these very events themselves, and to regard this arrangement as something like a limited reality of its own, as a trend. Virtual reality? That&rsquo;s what the partial simulations were initially called.</p>
+            <p className="mt-6">In Western culture, formerly the First World, the world as a nominal, technological-media art form/description has evidently undergone a transformation whose ending may now be said to be ongoing. The protagonists of art, pursuing the business of staging commodities, had begun to confuse the arrangement of the pretend game in which they locate themselves, establishing references to more or less current but ultimately still originally authentic, historically and geographically locatable events, with these very events themselves, and to regard this arrangement as something like a limited reality of its own, as a trend. Virtual reality? That&rsquo;s what the partial simulations were initially called.</p>
 
             <p className="mt-4">Unfortunately, that doesn&rsquo;t exist. The real is never limited nor limitable. It simply never ends. Yes, that&rsquo;s how it is. Reality is maximally historical.</p>
 

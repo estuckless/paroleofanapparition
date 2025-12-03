@@ -14,26 +14,38 @@ export default function Press() {
             className="block relative w-full h-[500px] cursor-pointer hover:opacity-95 transition-opacity"
           >
             <Image
-              src="/images/Brought to my knees, 2022, Nigel Rolfe.TIF"
-              alt="Brought to my knees, 2022 © Nigel Rolfe"
+              src="/images/press/homepagepressimage copy.jpg"
+              alt="Overshadow/ Holding Water"
               fill
               className="object-contain"
             />
           </a>
-          <p className="text-center italic mt-1">Brought to my knees, 2022 © Nigel Rolfe</p>
+          <p className="text-center italic mt-1 text-xs">Title of Works: Overshadow/ Holding Water | Artists: Nigel Rolfe/ Paula Fitzsimons | Location: Votivkirche Church, Wien</p>
 
           <div className="space-y-4 mt-8">
             <h2 className="font-semibold">Articles</h2>
-            <p>
-              <a
-                href="https://www.les-nouveaux-riches.com/parole-of-an-apparition/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                Les Nouveaux Riches: Parole of an Apparition
-              </a>
-            </p>
+            <div className="space-y-2">
+              <p>
+                <a
+                  href="https://www.les-nouveaux-riches.com/parole-of-an-apparition/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  Les Nouveaux Riches: Parole of an Apparition
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://www.les-nouveaux-riches.com/interview-parole-of-an-apparition/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  Les Nouveaux Riches: Interview Parole of an Apparition
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
