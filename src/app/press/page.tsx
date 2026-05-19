@@ -20,7 +20,7 @@ export default function Press() {
               className="object-contain"
             />
           </a>
-          <p className="text-center italic mt-1 text-xs">Title of Works: Overshadow/ Holding Water | Artists: Nigel Rolfe/ Paula Fitzsimons | Location: Votivkirche Church, Wien</p>
+          <p className="text-center italic mt-1 text-xs">Title of Works: Overshadow/ Holding Water | Artists: Nigel Rolfe/ Paula Fitzsimons | Location: Votivkirche, Wien</p>
 
           <div className="space-y-4 mt-8">
             <h2 className="font-semibold">Articles</h2>

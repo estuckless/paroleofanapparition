@@ -32,7 +32,7 @@ export default function Home() {
 
   const hmInfo = {
     title: "HM Communication",
-    content: "HM Communication was founded by Hema Makwana and is based in Vienna/Austria. For the past fifteen-plus years, Hema and her team have been trusted and close advisors to collectors providing personal and bespoke collection management services, and working directly with clients on the implementation of ideas primarily in the DACH region and the UK. Independently, HM Communication is also a supportive companion for contemporary artists and creatives from various fields. Hema brings exceptional ideas to life by guiding and assisting the artists & creatives in expanding their careers.",
+    content: "HM Communication was founded by Hema Makwana and is based in Vienna/Austria. For the past sixteen-plus years, Hema and her team have been trusted and close advisors to collectors providing personal and bespoke collection management services, and working directly with clients on the implementation of ideas primarily in the DACH region and the UK. Independently, HM Communication is also a supportive companion for contemporary artists and creatives from various fields. Hema brings exceptional ideas to life by guiding and assisting the artists & creatives in expanding their careers.",
     email: "office@hmcommunication.eu",
     web: "hmcommunication.eu",
     instagram: "@_hm_communication"

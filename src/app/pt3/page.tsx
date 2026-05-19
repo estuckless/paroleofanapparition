@@ -32,7 +32,7 @@ export default function Pt3() {
             <p><strong>access:</strong></p>
             <div className="ml-4 space-y-1">
               <p><a href="https://maps.app.goo.gl/evu4MLLF7Tth1ZMv9" target="_blank" rel="noopener noreferrer" className="hover:underline">Votivkirche<br />Rooseveltplatz, 1090 Wien</a></p>
-              <p>Performance takes place in public space in front of Votivkirche</p>
+              <p>Performance takes place in public space in front of the Votivkirche</p>
             </div>
           </div>
 

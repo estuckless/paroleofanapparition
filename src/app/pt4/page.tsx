@@ -37,7 +37,7 @@ export default function Pt4() {
           <div className="space-y-2">
             <p><strong>access:</strong></p>
             <div className="ml-4 space-y-1">
-              <p><a href="https://maps.app.goo.gl/F3RxQxHW63SbGthcA" target="_blank" rel="noopener noreferrer" className="hover:underline">Haus der Industrie, Großer Festsa<br />Schwarzenbergplatz 4, 1030 Wien</a></p>
+              <p><a href="https://maps.app.goo.gl/F3RxQxHW63SbGthcA" target="_blank" rel="noopener noreferrer" className="hover:underline">Haus der Industrie, Großer Festsaal<br />Schwarzenbergplatz 4, 1030 Wien</a></p>
             </div>
           </div>
 
